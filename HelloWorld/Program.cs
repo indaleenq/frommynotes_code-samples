@@ -4,12 +4,14 @@
     {
         static void Main(string[] args)
         {
-            int x = 0;
-            while (x < 5)
-            {
-                Console.WriteLine("value of x is " + x);
-                x++;
-            }
+            //using implicit data type var
+            var booktitles = new string[4];
+
+            //populating the elements of the array
+            booktitles[0] = "Brain Rules";
+            booktitles[1] = "Pragmatic Programmer";
+            booktitles[2] = "Harry Potter and the Half-Blood Prince";
+            booktitles[3] = "The Alchemist";
         }
     }
 }
